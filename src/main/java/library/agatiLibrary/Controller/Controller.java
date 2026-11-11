@@ -1,4 +1,4 @@
-package library.agatiLibrary;
+package library.agatiLibrary.Controller;
 
 import library.agatiLibrary.Model.Book;
 import library.agatiLibrary.Service.LibraryService;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v")
+@RequestMapping("/api/v1")
 public class Controller {
 
     private final LibraryService libraryService;
